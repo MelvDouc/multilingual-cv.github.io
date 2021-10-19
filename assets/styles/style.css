@@ -124,17 +124,17 @@ address {
 /* MAIN-RIGHT SECTIONS */
 /* ===== ===== ===== ===== ===== */
 
-cv-article {
+article {
   padding: .4em;
   background: white;
   border-radius: 5px;
 }
 
-cv-article > ul {
+article > ul {
   list-style-position: inside;
 }
 
-cv-article h2 {
+article h2 {
   color: white;
   background: linear-gradient(to right, rgb(34, 139, 34), rgb(34, 139, 55));
   padding: .1em;
@@ -145,16 +145,16 @@ cv-article h2 {
   column-count: 2;
 }
 
-#main-right cv-article > ul {
+#main-right article > ul {
   list-style-type: none;
 }
 
-#main-right cv-article > ul > li {
+#main-right article > ul > li {
   break-inside: avoid-column;
   margin-top: .33em;
 }
 
-#main-right cv-article > ul > li::before {
+#main-right article > ul > li::before {
   content: "\021e8";
   margin-right: .45em;
 }

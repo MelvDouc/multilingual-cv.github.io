@@ -1,7 +1,4 @@
-import CVArticle from "./CVArticle.js";
 import fetchTranslations from "./fetchTranslations.js";
-
-customElements.define("cv-article", CVArticle);
 
 await fetchTranslations();
 
