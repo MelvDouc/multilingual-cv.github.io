@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+:root {
+  --main-gap: .4em;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100vw;
+  font-size: .975rem;
+}
+
+body:not(body i) {
+  font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* ===== ===== ===== ===== ===== */
+/* HEADINGS */
+/* ===== ===== ===== ===== ===== */
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  --blue1: rgb(5, 117, 230);
+  --blue2: rgb(22, 50, 101);
+  padding: .3em;
+  color: white;
+  background: linear-gradient(to right, var(--blue1), var(--blue2));
+  position: relative;
+}
+
+#lang-select {
+  all: unset;
+  font-size: .9rem;
+  font-weight: normal;
+  position: absolute;
+  right: .5em;
+  bottom: .5em;
+  display: grid;
+  cursor: pointer;
+  border: 1px solid darkgray;
+  color: black;
+  background: white;
+  padding: .25em .33em;
+}
+
+/* ===== ===== ===== ===== ===== */
+/* MAIN */
+/* ===== ===== ===== ===== ===== */
+
+main {
+  padding: var(--main-gap);
+  column-gap: var(--main-gap);
+  display: grid;
+  grid-template-columns: 2fr 11fr;
+  background: rgb(229, 225, 245);
+}
+
+main > section {
+  display: grid;
+  align-items: stretch;
+  row-gap: var(--main-gap);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  column-gap: var(--main-gap);
+}
+
+/* ===== ===== ===== ===== ===== */
+/* PICTURE */
+/* ===== ===== ===== ===== ===== */
+
+#picture {
+  display: grid;
+  place-items: center;
+}
+
+#picture img {
+  max-width: 100%;
+}
+
+/* ===== ===== ===== ===== ===== */
+/* CONTACT */
+/* ===== ===== ===== ===== ===== */
+
+address {
+  font-style: normal;
+}
+
+#contact > div + div {
+  margin-top: .33em;
+}
+
+#contact > div {
+  display: flex;
+  gap: .5em;
+}
+
+#contact img {
+  max-width: 1em;
+}
+
+/* ===== ===== ===== ===== ===== */
+/* MAIN-RIGHT SECTIONS */
+/* ===== ===== ===== ===== ===== */
+
+#contact, #hobbies {
+  font-size: .9em;
+}
+
+/* ===== ===== ===== ===== ===== */
+/* MAIN-RIGHT SECTIONS */
+/* ===== ===== ===== ===== ===== */
+
+cv-article {
+  padding: .4em;
+  background: white;
+  border-radius: 5px;
+}
+
+cv-article > ul {
+  list-style-position: inside;
+}
+
+cv-article h2 {
+  color: white;
+  background: linear-gradient(to right, rgb(34, 139, 34), rgb(34, 139, 55));
+  padding: .1em;
+  margin-bottom: .2em;
+}
+
+#skills > ul {
+  column-count: 2;
+}
+
+#main-right cv-article > ul {
+  list-style-type: none;
+}
+
+#main-right cv-article > ul > li {
+  break-inside: avoid-column;
+  margin-top: .33em;
+}
+
+#main-right cv-article > ul > li::before {
+  content: "\021e8";
+  margin-right: .45em;
+}
+
+.right-detail {
+  margin-left: 1em;
+  font-size: .925em;
+}
+
+/* ===== ===== ===== ===== ===== */
+/* EXPERIENCE */
+/* ===== ===== ===== ===== ===== */
+
+#experience > ul > li span:first-child,
+#education > ul > li span:first-child {
+  text-decoration: underline;
+}
+
+/* ===== ===== ===== ===== ===== */
+/* MEDIA QUERIES */
+/* ===== ===== ===== ===== ===== */
+
+@media print {
+  #lang-select {
+    display: none;
+  }
+}

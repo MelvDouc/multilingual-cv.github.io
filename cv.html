@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/cv.css">
+  <script src="./assets/js/main.js" type="module"></script>
+  <title data-trl="title"></title>
+</head>
+<body>
+
+  <header>
+    <h1>
+      <div data-trl="title"></div>
+      <div data-trl="h1-bottom"></div>
+      <select id="lang-select">
+        <option value="fr" selected>français</option>
+        <option value="en">English</option>
+      </select>
+    </h1>
+  </header>
+  
+  <main>
+    <section id="main-left">
+      <cv-article id="picture"></cv-article>
+      <cv-article id="contact"></cv-article>
+      <cv-article id="hobbies"></cv-article>
+    </section>
+
+    <section id="main-right">
+      <cv-article id="skills"></cv-article>
+      <cv-article id="experience"></cv-article>
+      <div class="row">
+        <cv-article id="education"></cv-article>
+        <cv-article id="languages"></cv-article>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

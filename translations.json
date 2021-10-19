@@ -1,0 +1,150 @@
+{
+	"title": {
+		"fr": "CV de Melvin DOUCET",
+		"en": "Melvin Doucet's résumé"
+	},
+	"h1-bottom": {
+		"fr": "Développeur web et web mobile",
+		"en": "Junior Web Developer"
+	},
+	"contact-title": {
+		"fr": "Coordonnées",
+		"en": "Contact detail"
+	},
+	"hobbies-title": {
+		"fr": "Loisirs",
+		"en": "Hobbies"
+	},
+	"hobbies-volunteering": {
+		"fr": "Bénévolat avec Étud'ETChantiers depuis plus de dix ans.",
+		"en": "Volunteering with Étud'ETChantiers for over ten years."
+	},
+	"hobbies-chess": {
+		"fr": "Échecs &mdash; Je joue au club de Dommeldange-Beggen en promotion d'honneur.",
+		"en": "Chess &mdash; Currently playing for Dommeldange-Beggen in Luxemburg."
+	},
+	"hobbies-reading": {
+		"fr": "Lecture &mdash; Haruki Murakami et Paul Auster",
+		"en": "Reading &mdash; Haruki Murakami & Paul Auster"
+	},
+	"edu-webdev": {
+		"fr": "Développeur web et web mobile",
+		"en": "Web Developer"
+	},
+	"edu-webdev-school": {
+		"fr": "école WebForce3 Strasbourg",
+		"en": "WebForce3 School, Strasbourg, France"
+	},
+	"edu-webdev-degree": {
+		"fr": "en attente du diplôme",
+		"en": "pending degree confirmation"
+	},
+	"edu-admin": {
+		"fr": "Niveau BTS assistant de gestion",
+		"en": "Administrative Assistant"
+	},
+	"edu-admin-school": {
+		"fr": "école IFA à Metz",
+		"en": "French Institute of Affairs, Metz, France"
+	},
+	"edu-afl": {
+		"fr": "Licence LEA",
+		"en": "Applied Foreign Languages Bachelor's"
+	},
+	"edu-afl-langs": {
+		"fr": "anglais-allemand-japonais",
+		"en": "English, German and Japanese"
+	},
+	"edu-afl-school": {
+		"fr": "université du Saulcy à Metz",
+		"en": "Saulcy University, Metz, France"
+	},
+	"edu-bac": {
+		"fr": "Bac L",
+		"en": "Literary <em>Baccalauréat</em>"
+	},
+	"edu-bac-score": {
+		"fr": "15,15 de moyenne (mention Bien)",
+		"en": "15.15/20 average score"
+	},
+	"exp-title": {
+		"fr": "Expérience professionnelle",
+		"en": "Professional Experience"
+	},
+	"exp-receptionist": {
+		"fr": "Réceptionniste dans un hôtel F1",
+		"en": "Hotel receptionist"
+	},
+	"exp-bicycles": {
+		"fr": "Agent d'accueil",
+		"en": "Bicycle rental clerk"
+	},
+	"exp-bicycles-tasks": {
+		"fr": "location de vélos",
+		"en": "Bicycle rental"
+	},
+	"exp-oddjobs": {
+		"fr": "Petits travaux divers",
+		"en": "Odd jobs"
+	},
+	"exp-admin": {
+		"fr": "Assistant de gestion PME-PMI",
+		"en": "Administrative Assistant"
+	},
+	"exp-admin-employer": {
+		"fr": "Foyer de jeunes travailleurs Etap'Habitat à Metz (alternance)",
+		"en": "Etap'Habitat Young Workers' Hostel, Metz, France (sandwich course)"
+	},
+	"langs-title": {
+		"fr": "Langues",
+		"en": "Languages"
+	},
+	"langs-fr": {
+		"fr": "français natif",
+		"en": "native French"
+	},
+	"langs-en": {
+		"fr": "anglais avancé",
+		"en": "proficient English"
+	},
+	"langs-de": {
+		"fr": "allemand correct",
+		"en": "decent German"
+	},
+	"langs-jp": {
+		"fr": "japonais basique",
+		"en": "basic Japanese"
+	},
+	"langs-zh": {
+		"fr": "chinois mandarin basique",
+		"en": "basic Mandarin Chinese"
+	},
+	"skills-title": {
+		"fr": "Compétences",
+		"en": "Skills"
+	},
+	"skills-html": {
+		"fr": "HTML et CSS",
+		"en": "HTML & CSS"
+	},
+	"skills-js": {
+		"fr": "POO, composants web",
+		"en": "OOP, web components"
+	},
+	"skills-mysql": {
+		"fr": "Bases de données MySQL",
+		"en": "MySQL databases"
+	},
+	"skills-php": {
+		"fr": "natif, POO",
+		"en": "vanilla, OOP"
+	},
+	"skills-figma": {
+		"fr": "conception de wireframes",
+		"en": "wireframes"
+	},
+	"skills-uiux": {
+		"fr": "UI et UX design",
+		"en": "UI & UX design"
+	}
+}
