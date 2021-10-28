@@ -27,6 +27,10 @@
 		"fr": "Lecture &mdash; Haruki Murakami et Paul Auster",
 		"en": "Reading &mdash; Haruki Murakami & Paul Auster"
 	},
+	"edu-title": {
+		"fr": "Formation",
+		"en": "Education"
+	},
 	"edu-webdev": {
 		"fr": "Développeur web et web mobile",
 		"en": "Web Developer"
