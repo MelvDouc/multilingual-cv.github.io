@@ -1,0 +1,16 @@
+article {
+  padding: .4em;
+  background: white;
+  border-radius: 5px;
+  
+  > ul {
+    list-style-position: inside;
+  }
+  
+  h2 {
+    color: white;
+    background: linear-gradient(to right, rgb(34, 139, 34), rgb(34, 139, 55));
+    padding: .1em;
+    margin-bottom: .2em;
+  }
+}

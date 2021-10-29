@@ -1,0 +1,14 @@
+#lang-select {
+  all: unset;
+  font-size: .9rem;
+  font-weight: normal;
+  position: absolute;
+  right: .5em;
+  bottom: .5em;
+  display: grid;
+  cursor: pointer;
+  border: 1px solid darkgray;
+  color: black;
+  background: white;
+  padding: .25em .33em;
+}

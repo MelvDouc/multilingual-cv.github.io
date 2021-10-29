@@ -1,0 +1,20 @@
+#main-right article {
+  > ul {
+    list-style-type: none;
+    
+    > li {
+      break-inside: avoid-column;
+      margin-top: .33em;
+      
+      &::before {
+        content: "\021e8";
+        margin-right: .45em;
+      }
+    }
+  }
+  
+  .right-detail {
+    margin-left: 1em;
+    font-size: .925em;
+  }
+}

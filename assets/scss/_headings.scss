@@ -1,0 +1,13 @@
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  --blue1: rgb(5, 117, 230);
+  --blue2: rgb(22, 50, 101);
+  padding: .3em;
+  color: white;
+  background: var(--blue1);
+  background: linear-gradient(to right, var(--blue1), var(--blue2));
+  position: relative;
+}

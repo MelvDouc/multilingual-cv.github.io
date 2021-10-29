@@ -1,0 +1,20 @@
+main {
+  padding: var(--main-gap);
+  column-gap: var(--main-gap);
+  display: grid;
+  grid-template-columns: 2fr 11fr;
+  background: rgb(229, 225, 245);
+  
+  > section {
+    display: grid;
+    align-items: stretch;
+    row-gap: var(--main-gap);
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    column-gap: var(--main-gap);
+  }
+}
+

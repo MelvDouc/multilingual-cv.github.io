@@ -1,0 +1,22 @@
+#contact, #hobbies {
+  font-size: .9em;
+}
+
+#contact {
+  address {
+    font-style: normal;
+  }
+
+  > div {
+    display: flex;
+    gap: .5em;
+    
+    & + div {
+      margin-top: .33em;
+    }
+  }
+  
+  img {
+    max-width: 1em;
+  }
+}
